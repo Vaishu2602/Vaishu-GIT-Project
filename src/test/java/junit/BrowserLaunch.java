@@ -49,5 +49,8 @@ System.out.println(date);
 		// TODO Auto-generated method stub
 WebElement findElement = driver.findElement(By.id("email"));
 findElement.sendKeys("vaish");
+System.out.println("done");
+System.out.println("Thank you");
+
 	}
 }
