@@ -49,7 +49,11 @@ System.out.println(date);
 		// TODO Auto-generated method stub
 WebElement findElement = driver.findElement(By.id("email"));
 findElement.sendKeys("vaish");
+
 WebElement pass = driver.findElement(By.id("pass"));
 pass.sendKeys("123456");
+System.out.println("done");
+System.out.println("Thank you");
+
 	}
 }
